@@ -1,0 +1,40 @@
+/* App.css */
+.App {
+	text-align: center;
+	padding: 20px;
+	margin-left: 30vw;
+}
+
+.center {
+	margin-left: 40vw;
+}
+h1 {
+	color: #333;
+}
+
+.upload-container {
+	justify-content: space-between;
+}
+
+textarea {
+	width: 100%;
+	height: 200px;
+}
+
+.preview-text {
+	white-space: pre-wrap;
+}
+
+.button {
+	background-color: #3498db;
+	color: #ffffff;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	transition: background-color 0.3s; /* Add a smooth transition for color change */
+}
+
+/* Define hover styles for the button */
+.button:hover {
+	background-color: #e74c3c; /* Change the background color on hover */
+}
